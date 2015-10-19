@@ -1,0 +1,67 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{366C6641-A476-6278-4489-C51D18E67124}") = "MuseumDemo", "Assembly-CSharp-firstpass-vs.csproj", "{1477AC32-382B-250C-2B5E-2ABAE05F6E70}"
+EndProject
+Project("{366C6641-A476-6278-4489-C51D18E67124}") = "MuseumDemo", "Assembly-CSharp-vs.csproj", "{0563010A-6B3B-1620-40BD-963BF3EF27F2}"
+EndProject
+Project("{366C6641-A476-6278-4489-C51D18E67124}") = "MuseumDemo", "Assembly-CSharp-Editor-vs.csproj", "{4945E5FE-B7DD-028F-AADA-3002ACF5B153}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1477AC32-382B-250C-2B5E-2ABAE05F6E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1477AC32-382B-250C-2B5E-2ABAE05F6E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1477AC32-382B-250C-2B5E-2ABAE05F6E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1477AC32-382B-250C-2B5E-2ABAE05F6E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0563010A-6B3B-1620-40BD-963BF3EF27F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0563010A-6B3B-1620-40BD-963BF3EF27F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0563010A-6B3B-1620-40BD-963BF3EF27F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0563010A-6B3B-1620-40BD-963BF3EF27F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4945E5FE-B7DD-028F-AADA-3002ACF5B153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4945E5FE-B7DD-028F-AADA-3002ACF5B153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4945E5FE-B7DD-028F-AADA-3002ACF5B153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4945E5FE-B7DD-028F-AADA-3002ACF5B153}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+																									GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+		$0.DotNetNamingPolicy = $4
+		$4.DirectoryNamespaceAssociation = None
+		$4.ResourceNamePolicy = FileFormatDefault
+		$0.TextStylePolicy = $5
+		$5.inheritsSet = null
+		$5.scope = text/x-shader
+		$0.StandardHeader = $6
+		$6.Text = @\n ${FileName}\n \n Author:\n      ${AuthorName} <${AuthorEmail}>\n \n Copyright (c) ${Year} ${CopyrightHolder}\n\n This program is free software: you can redistribute it and/or modify\n it under the terms of the GNU Lesser General Public License as published by\n the Free Software Foundation, either version 3 of the License, or\n (at your option) any later version.\n\n This program is distributed in the hope that it will be useful,\n but WITHOUT ANY WARRANTY; without even the implied warranty of\n MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n GNU Lesser General Public License for more details.\n\n You should have received a copy of the GNU Lesser General Public License\n along with this program.  If not, see <http://www.gnu.org/licenses/>.
+		$6.IncludeInNewFiles = True
+		$0.VersionControlPolicy = $7
+		$7.inheritsSet = Mono
+		$0.ChangeLogPolicy = $8
+		$8.UpdateMode = None
+		$8.MessageStyle = $9
+		$9.LineAlign = 0
+		$8.inheritsSet = Mono
+	EndGlobalSection
+
+EndGlobal

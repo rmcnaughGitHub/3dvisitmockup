@@ -1,0 +1,57 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{5CF7925A-E36C-E9FC-AE63-40A9869B0297}") = "Museum3D", "Assembly-CSharp-firstpass-vs.csproj", "{9293B500-43FC-A456-17D8-6ED3D55C1E16}"
+EndProject
+Project("{5CF7925A-E36C-E9FC-AE63-40A9869B0297}") = "Museum3D", "Assembly-CSharp-vs.csproj", "{F5AAA30C-759F-65F3-F900-13E255712D40}"
+EndProject
+Project("{5CF7925A-E36C-E9FC-AE63-40A9869B0297}") = "Museum3D", "Assembly-CSharp-Editor-vs.csproj", "{73DFCDA4-FE9C-AB37-3310-61064073A820}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9293B500-43FC-A456-17D8-6ED3D55C1E16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9293B500-43FC-A456-17D8-6ED3D55C1E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9293B500-43FC-A456-17D8-6ED3D55C1E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9293B500-43FC-A456-17D8-6ED3D55C1E16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5AAA30C-759F-65F3-F900-13E255712D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5AAA30C-759F-65F3-F900-13E255712D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5AAA30C-759F-65F3-F900-13E255712D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5AAA30C-759F-65F3-F900-13E255712D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73DFCDA4-FE9C-AB37-3310-61064073A820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73DFCDA4-FE9C-AB37-3310-61064073A820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73DFCDA4-FE9C-AB37-3310-61064073A820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73DFCDA4-FE9C-AB37-3310-61064073A820}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+															GlobalSection(MonoDevelopProperties) = preSolution
+=======
+								GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> 18756e7... switch to text mode
+=======
+						GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> parent of 18756e7... switch to text mode
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
+EndGlobal
