@@ -11,8 +11,8 @@ public class Wall : MonoBehaviour
 	void wallsTransparent (bool isTransparent)
 	{
 		float alpha = (isTransparent) ? defaultAlphaTransparency : 1.0f;
-		Color tmpColor = renderer.material.color;
+		Color tmpColor = GetComponent<Renderer>().material.color;
 		tmpColor.a = alpha;
-		HOTween.To (gameObject.renderer.material, 1, new TweenParms ().Prop ("color", tmpColor));
+		HOTween.To (gameObject.GetComponent<Renderer>().material, 1, new TweenParms ().Prop ("color", tmpColor));
 	}
 }

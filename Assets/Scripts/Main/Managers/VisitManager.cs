@@ -101,7 +101,7 @@ public class VisitManager : MonoBehaviour
 			// Reactivate "disabled collider" on last element
 			// This ensure to reclick/touch it back
 			GoalData currentGoalData = (GoalData)mGoalsStack.Peek ();
-			currentGoalData.mIniator.collider.enabled = true;
+			currentGoalData.mIniator.GetComponent<Collider>().enabled = true;
 				
 			// then remove it 
 			mGoalsStack.Pop (); 
@@ -140,7 +140,7 @@ public class VisitManager : MonoBehaviour
 			// This to avoid to reclick again on 
 			// And ensure that stack is not increased with same goal
 			if (goalData.mIniator != null) {
-				goalData.mIniator.collider.enabled = false;
+				goalData.mIniator.GetComponent<Collider>().enabled = false;
 			}
 			
 		}
@@ -173,7 +173,7 @@ public class VisitManager : MonoBehaviour
 			break;
 		}*/
 		
-		BroadcastMessage (Messages.stateChanged, mVisitState); // Prevent others component...
+		//BroadcastMessage (Messages.stateChanged, mVisitState); // Prevent others component...
 	}
 	
 	#region Camera message receivers

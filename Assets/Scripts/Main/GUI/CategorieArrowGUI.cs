@@ -32,7 +32,7 @@ public class CategorieArrowGUI : MonoBehaviour
 	{
 	
 		if (type.Equals (Type.Previous)) {
-			guiTexture.enabled = visible;
+			GetComponent<GUITexture>().enabled = visible;
 		}
 		
 	}
@@ -40,7 +40,7 @@ public class CategorieArrowGUI : MonoBehaviour
 	void setGUIArrowNextVisible (bool visible)
 	{
 		if (type.Equals (Type.Next)) {
-			guiTexture.enabled = visible;
+			GetComponent<GUITexture>().enabled = visible;
 		}
 	}
 	

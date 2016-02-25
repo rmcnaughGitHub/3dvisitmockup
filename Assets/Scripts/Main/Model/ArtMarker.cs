@@ -41,7 +41,7 @@ public class ArtMarker : MonoBehaviour {
 	}
 	
 	void SetVisible(bool visible) {
-		renderer.enabled = visible;
+		GetComponent<Renderer>().enabled = visible;
 	}
 
 }
