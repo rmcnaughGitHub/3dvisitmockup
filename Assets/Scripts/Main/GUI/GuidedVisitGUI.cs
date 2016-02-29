@@ -9,8 +9,8 @@ public class GuidedVisitGUI : MonoBehaviour
 	
 	void Start ()
 	{
-		guiText.material.color = Color.black;
-		mDefaultText = guiText.text;
+		GetComponent<GUIText>().material.color = Color.black;
+		mDefaultText = GetComponent<GUIText>().text;
 	}
 	
 	void OnMouseDown ()
@@ -20,11 +20,11 @@ public class GuidedVisitGUI : MonoBehaviour
 	
 	void guidedVisitRequested ()
 	{
-		guiText.text = ""; //"> Recommencer <";
+		GetComponent<GUIText>().text = ""; //"> Recommencer <";
 	}
 
 	void guidedVisitEnded ()
 	{
-		guiText.text = mDefaultText;
+		GetComponent<GUIText>().text = mDefaultText;
 	}
 }
