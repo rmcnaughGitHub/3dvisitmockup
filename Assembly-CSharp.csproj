@@ -55,10 +55,8 @@
      <Compile Include="Assets\Scripts\Main\Managers\CategoriesManager.cs" />
      <Compile Include="Assets\Scripts\Main\Managers\GuidedVisitManager.cs" />
      <Compile Include="Assets\Scripts\Main\Managers\VisitManager.cs" />
-     <Compile Include="Assets\Scripts\Main\Messages\ArtMarkerMessage.cs" />
      <Compile Include="Assets\Scripts\Main\Messages\GoalData.cs" />
      <Compile Include="Assets\Scripts\Main\Messages\Messages.cs" />
-     <Compile Include="Assets\Scripts\Main\Model\ArtMarker.cs" />
      <Compile Include="Assets\Scripts\Main\Model\Trigger.cs" />
      <Compile Include="Assets\Scripts\Main\Model\Wall.cs" />
      <Compile Include="Assets\Scripts\Test\CamMoves.cs" />
@@ -76,7 +74,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="HOTween">
- <HintPath>C:/Users/xmls0638/Desktop/Unity3d_old_Project/3dvisitmockup/Assets/Plugins/HOTween/HOTween.dll</HintPath>
+ <HintPath>C:/Users/Thomas/Desktop/Unity3d/3dvisitmockup/Assets/Plugins/HOTween/HOTween.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
