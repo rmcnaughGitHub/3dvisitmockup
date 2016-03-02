@@ -45,8 +45,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GoogleAnalyticsClient.cs" />
-     <Compile Include="Assets\GoogleAnalyticsHelper.cs" />
      <Compile Include="Assets\Scripts\Main\Enums\VisitStates.cs" />
      <Compile Include="Assets\Scripts\Main\GUI\CategorieArrowGUI.cs" />
      <Compile Include="Assets\Scripts\Main\GUI\Debug\GuiDebug.cs" />
