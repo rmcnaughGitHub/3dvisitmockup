@@ -10,7 +10,7 @@ public class GuidedVisitManager : MonoBehaviour
 	public float 		mVisitGuidedTime = 90;
 	public float 		mCameraDropTime = 1.5f;
 	public Transform[]	path;
-	private Tweener 	currentTween = null;
+	private Tweener 	currentTween;
 	
 	// Use this for initialization
 	void Start ()
